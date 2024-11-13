@@ -53,7 +53,7 @@ h2 + p {
     border-top: 4px solid;
     box-shadow: 0 0 10px var(--Grayish-Blue);
 }
-@media (max-width: 375px) {
+@media (max-width: 770px) {
     .container {
         align-items: center;
         flex-direction: column;
@@ -85,6 +85,7 @@ h2 + p {
     }
     .container .card {
         position: absolute;
+        /* margin: 0 10px; */
     }
     .container .card:first-child {
         left: 50%;
@@ -104,3 +105,17 @@ h2 + p {
         transform: translateX(-50%);
     }
 }
+/* footer */
+footer {
+    height: 50px;
+    background-color: var(--Very-Dark-Blue);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+footer p a {
+    color: var(--Orange);
+    margin: 0 5px;
+}
+/* end footer */
